@@ -83,7 +83,7 @@ export default function Layout({ children, currentPageName }) {
             {/* Logo */}
             <Link to={createPageUrl('Home')} className="flex items-center space-x-3 group">
               <img 
-                src="public/image/header--logo.png" 
+                src="/image/header--logo.png" 
                 alt="Ennoble Social" 
                 className="w-12 h-12 object-contain transform group-hover:scale-105 transition-transform duration-300"
               />
